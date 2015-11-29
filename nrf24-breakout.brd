@@ -462,15 +462,17 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="VCC">
 <contactref element="U1" pad="2"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="9.525" y1="12.7" x2="9.525" y2="9.525" width="0.3048" layer="16"/>
+<wire x1="9.525" y1="12.7" x2="9.525" y2="9.525" width="0.8128" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="1"/>
 <contactref element="JP2" pad="2"/>
-<wire x1="9.525" y1="15.24" x2="10.795" y2="13.97" width="0.3048" layer="16"/>
-<wire x1="10.795" y1="13.97" x2="10.795" y2="8.518025" width="0.3048" layer="16"/>
-<wire x1="10.795" y1="8.518025" x2="10.6090125" y2="8.0690125" width="0.3048" layer="16" curve="-45"/>
-<wire x1="10.6090125" y1="8.0690125" x2="9.525" y2="6.985" width="0.3048" layer="16"/>
+<polygon width="0.3048" layer="1">
+<vertex x="-1.27" y="19.05"/>
+<vertex x="12.7" y="19.05"/>
+<vertex x="12.7" y="-1.27"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
 </signal>
 <signal name="CE">
 <contactref element="U1" pad="3"/>
